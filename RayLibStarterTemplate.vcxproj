@@ -142,7 +142,29 @@
     <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Attacks_adventure.cpp" />
+    <ClCompile Include="src\Attacks_tank.cpp" />
+    <ClCompile Include="src\Enemies_adventure.cpp" />
+    <ClCompile Include="src\Enemies_tank.cpp" />
+    <ClCompile Include="src\Environment_adventure.cpp" />
+    <ClCompile Include="src\Environment_tank.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Main_screen_and_controls.cpp" />
+    <ClCompile Include="src\Math.cpp" />
+    <ClCompile Include="src\Player_adventure.cpp" />
+    <ClCompile Include="src\Player_tank.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Attacks_adventure.h" />
+    <ClInclude Include="src\Attacks_tank.h" />
+    <ClInclude Include="src\Enemies_adventure.h" />
+    <ClInclude Include="src\Enemies_tank.h" />
+    <ClInclude Include="src\Environment_adventure.h" />
+    <ClInclude Include="src\Environment_tank.h" />
+    <ClInclude Include="src\Main_screen_and_controls.h" />
+    <ClInclude Include="src\Math.h" />
+    <ClInclude Include="src\Player_adventure.h" />
+    <ClInclude Include="src\Player_tank.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
